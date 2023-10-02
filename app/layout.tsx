@@ -4,7 +4,10 @@ import { Inter } from "next/font/google";
 import PromoNav from "./components/PromoNav";
 import Navbar from "./components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+	subsets: ["latin"],
+	weight: ["300", "500", "700", "900"],
+});
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -20,7 +23,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={inter.className}>
 				<PromoNav />
-				<main className="mx-auto max-w-7xl bg-white">
+				<main className="mx-auto max-w-7xl bg-white container">
 					<Navbar />
 					{children}
 				</main>
