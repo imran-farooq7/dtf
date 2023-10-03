@@ -15,7 +15,7 @@ const Product = () => {
 					height={900}
 					className="pb-4 w-full"
 				/>
-				<div className="flex gap-4 overflow-x-auto">
+				<div className="flex gap-4 overflow-x-auto no-scrollbar">
 					<Image src="/glass.png" alt="glass" width={125} height={127} />
 					<Image
 						src="/glass.png"

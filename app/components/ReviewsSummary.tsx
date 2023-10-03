@@ -1,6 +1,6 @@
 const ReviewsSummary = () => {
 	return (
-		<div className="flex justify-between">
+		<div className="flex justify-between pt-20 mb-20">
 			<div className="flex flex-col sm:flex-row gap-10">
 				<div className="space-y-2">
 					<div className="flex items-center gap-4">

@@ -1,4 +1,5 @@
 import Product from "./components/Product";
+import Review from "./components/Review";
 import ReviewsSummary from "./components/ReviewsSummary";
 
 export default function Home() {
@@ -6,6 +7,10 @@ export default function Home() {
 		<>
 			<Product />
 			<ReviewsSummary />
+			<Review />
+			<Review />
+			<Review />
+			<Review />
 		</>
 	);
 }
