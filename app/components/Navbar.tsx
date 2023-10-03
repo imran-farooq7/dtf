@@ -34,7 +34,7 @@ const Navbar = () => {
 	];
 	return (
 		<>
-			<nav className="flex flex-col items-center justify-between py-6 lg:flex-row">
+			<nav className="flex flex-col items-center gap-4 justify-between py-6 lg:flex-row">
 				<Image src="Logo.svg" alt="logo" width={144} height={40} />
 				<ul className="flex flex-col gap-2 md:gap-4 md:flex-row lg:gap-9">
 					{links.map((link) => (
